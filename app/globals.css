@@ -11,3 +11,14 @@
 }
 @tailwind components;
 @tailwind utilities;
+
+@media (min-width: 768px) {
+  .software-list {
+    width: 80%;
+  }
+
+  .software-item:nth-child(4n + 1),
+  .software-item:nth-child(4n + 2) {
+    transform: translateX(50%);
+  }
+}
